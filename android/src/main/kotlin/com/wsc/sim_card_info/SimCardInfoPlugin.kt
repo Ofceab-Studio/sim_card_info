@@ -121,7 +121,7 @@ class SimCardInfoPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
-        TODO("Not yet implemented")
+        // No cleanup necessary
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
@@ -130,7 +130,7 @@ class SimCardInfoPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
     }
 
     override fun onDetachedFromActivity() {
-        TODO("Not yet implemented")
+        // No cleanup necessary
     }
 
     override fun onRequestPermissionsResult(
